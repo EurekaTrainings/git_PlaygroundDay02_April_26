@@ -5,15 +5,18 @@ public class Stock {
     private String tickerSymbol;
     private String tickerName;
     private int marketCap;
+    private int zipcode;
 
 
     public Stock(String tickerSymbol,
                  String tickerName,
                  int marketCap,
+                 int zipcode
                  ) {
         this.tickerSymbol = tickerSymbol;
         this.tickerName = tickerName;
         this.marketCap = marketCap;
+        this.zipcode=zipcode;
     }
 
     boolean hasGoodFundamentals() {
@@ -25,6 +28,7 @@ public class Stock {
         System.out.println("Ticker Symbol: " + tickerSymbol);
         System.out.println("Ticker Name: " + tickerName);
         System.out.println("Market Cap: " + marketCap);
+        System.out.println("Zipcode: " + zipcode);
     }
 
 }
