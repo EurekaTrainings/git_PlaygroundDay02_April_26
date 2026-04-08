@@ -6,6 +6,7 @@ public class Stock {
     private String tickerName;
     private int marketCap;
     private int zipcode;
+    private string city;
 
 
     public Stock(String tickerSymbol,
