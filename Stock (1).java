@@ -6,6 +6,7 @@ public class Stock {
     private String tickerName;
     private int marketCap;
     private int zipcode;
+    private string city;
 
     public Stock(String tickerSymbol,
                  String tickerName,
@@ -26,6 +27,8 @@ public class Stock {
         System.out.println("Ticker Name: " + tickerName);
         System.out.println("Market Cap: " + marketCap);
         sysyem.out.println("Zip Code:" + zipcode);
+        sysyem.out.println("City:" + city);
+        
     }
 
 }
