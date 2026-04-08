@@ -27,7 +27,7 @@ public class Stock {
         System.out.println("Ticker Name: " + tickerName);
         System.out.println("Market Cap: " + marketCap);
         system.out.println("Zip Code:" + zipcode);
-        system.out.println("City:" + city);
+        system.out.println("City is:" + city);
         
     }
 
