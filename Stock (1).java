@@ -6,6 +6,7 @@ public class Stock {
     private String tickerName;
     private int marketCap;
     private int zipCode;
+    private string city;
 
     private int Zipcode;
 
@@ -30,6 +31,7 @@ public class Stock {
         System.out.println("Zip Code: " + zipCode);
         System.out.println("Zipcode is : "+ Zipcode);
         System.out.println("Zip Code is "+zipCode);
+        system.out.println("city is" + city);
     }
 
 }
